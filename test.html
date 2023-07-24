@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Situation Publishing</title>
+    <link rel="stylesheet" type="text/css" href="./test.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        
+        <!-- List -->
+        <div id="list">
+          <ul>
+            <li>Sysadmin Month</li>
+            <li>The Reg in Space</li>
+            <li>Emerging Clean Energy Tech Week</li>
+            <li>Spotlight on RSA</li>
+            <li>Energy Efficient Datacenters</li>
+            <li>Systems</li>
+            <li>Storage</li>
+            <li>Networks</li>
+            <li>Personal Tech</li>
+          </ul>
+        </div>
+        <!-- / List -->
+
+        <!-- List Scroll -->
+        <div id="list-scroll">
+          <a class="scrollNav pull-left" onclick="moveHandler(event, true)" href="#">
+            <i class="fa-solid fa-chevron-left"></i>
+            Scroll to Left
+          </a>
+          </a>
+          <a class="scrollNav pull-right" onclick="moveHandler(event)" href="#">
+            Scroll to Right
+            <i class="fa-solid fa-chevron-right"></i>
+          </a> 
+        </div>
+        <!-- / List Scroll -->
+
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/3d921f0af1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./test.js" defer></script>
+  </body>
+</html>

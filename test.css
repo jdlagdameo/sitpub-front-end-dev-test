@@ -1,0 +1,85 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #eee;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#list {
+  overflow: auto;
+  white-space: nowrap;
+  background: #0d31bd;
+}
+
+#list ul {
+  list-style-type: none;
+  border: 1px solid #0d31bd;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+  border-radius: 0.25rem!important;
+  color: #fff;
+  margin: 0 auto;
+}
+
+#list ul li {
+  display: inline-block;
+  padding: 15px;
+  margin: 2px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#list-scroll {
+  margin-top: 15px;
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  #list-scroll {
+    display: block;
+  }
+}
+
+.scrollNav{
+  color: black;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.scrollNav:link{
+  color: black;
+}
+
+.scrollNav:visited{
+  color: black;
+}
+
+.scrollNav:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+.scrollNav:active{
+  color: black;
+}
+
+.scrollNav.pull-left{
+  margin-left: 10px;
+}
+
+.scrollNav.pull-right{
+  margin-right: 10px;
+}
+
+/** Reusable Utilities **/
+
+.container{
+  width: 100%;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
